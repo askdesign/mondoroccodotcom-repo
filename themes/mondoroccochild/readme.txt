@@ -48,3 +48,16 @@ hotel-facade.webp - https://www.rawpixel.com/image/3286725/free-photo-image-blac
 License: UNICODE LICENSE V3 https://www.unicode.org/license.txt
 icon-message.webp
 
+
+Cabin Font
+Copyright 2018 The Cabin Project Authors (https://github.com/impallari/Cabin) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL 
+License URL: https://scripts.sil.org/OFL 
+Source: http://www.impallari.com
+-- End of Cabin Font credits --
+
+Cardo Font
+Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL  
+Source: http://scholarsfonts.net
+-- End of Cardo Font credits --
