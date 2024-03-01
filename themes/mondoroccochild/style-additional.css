@@ -1,0 +1,112 @@
+/*
+Theme Name: Mondo Rocco Child
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: Anne S. Katzeff
+Author URI: https://www.askdesign.biz
+Description: Child Theme based on 2024 Theme
+Requires at least: 6.0
+Tested up to: 6.4.2
+Requires PHP: 5.7
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: twentytwentyfour
+Text Domain: mondoroccochild
+Tags: news, portfolio, one-column, wide-blocks, accessibility-ready, block-patterns, block-styles, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, rtl-language-support, style-variations, threaded-comments, translation-ready, 
+*/
+
+/* -- Additional CSS -- */
+
+/* Header */
+
+.wp-block-site-logo a, 
+.wp-block-site-logo img {
+    margin-left: -1px;
+}
+
+.wp-block-site-tagline {
+    width: 183px;
+}
+
+p.has-background.wp-block-site-tagline {
+    padding: 1.25em 0;
+}
+
+nav.wp-container-core-navigation-layout-1.wp-container-core-navigation-layout-1 {
+    gap: var(--wp--preset--spacing--30);
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+body .is-layout-flex > .globe-icon {
+    margin: 0 -0.125rem 0 0;
+    z-index: 5;
+}
+
+.wp-block-navigation a:where(:not(.wp-element-button)):hover {
+    text-decoration: none;
+    color: var(--wp--preset--color--custom-links-active-nav) !important;
+}
+
+/* Links */
+
+a:where(:not(.wp-element-button)):hover {
+    color: var(--wp--preset--color--custom-links-active);
+    text-decoration: underline;
+}
+
+/* Heads and Anchors */
+h3 {
+    margin-top: 3.5rem;
+}
+
+h3.nav-anchor {
+    margin-top: 0;
+}
+
+body .is-layout-constrained > h3 {
+    margin-block-start: 3.5rem;
+}
+
+body .is-layout-constrained > h3.nav-anchor {
+    margin-block-start: 0;
+}
+
+.globe-icon-section-start {
+    margin-top: 2.5rem;
+}
+
+#what-i-do,
+#scriptwriting,
+#about-me,
+#contact-me {
+  scroll-margin-top: 220px;
+}
+
+
+/* Quotes */
+.wp-block-quote cite,
+.wp-block-pullquote cite {
+    font-family: var(--wp--preset--font-family--cabin);
+    display: block;
+    line-height: 1.3;
+}
+
+.wp-block-quote {
+    border-left: 1px #9B9768 dotted;
+}
+
+/* Pullquote */
+.wp-block-pullquote {
+   border-left: 0px #9b9768 solid;
+    padding: var(--wp--preset--spacing--10);
+}
+
+.wp-block-pullquote blockquote, .wp-block-pullquote cite, .wp-block-pullquote p {
+    margin: 0;
+}
+
+.wp-block-pullquote cite {
+    font-size: var(--wp--preset--font-size--small);
+    margin-top: .5rem;
+}
