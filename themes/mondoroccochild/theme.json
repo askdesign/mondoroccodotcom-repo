@@ -222,13 +222,23 @@
 				},
 				{
 					"color": "#d5cf93",
-					"name": "Accent - Light",
-					"slug": "custom-accent-light"
+					"name": "Accent - Light 1",
+					"slug": "custom-accent-light-1"
 				},
 				{
 					"color": "#7d7a53",
 					"name": "Accent - Dark 2",
 					"slug": "custom-accent-dark-2"
+				},
+				{
+					"color": "#f4f4cf",
+					"name": "Accent - Light 2",
+					"slug": "custom-accent-light-2"
+				},
+				{
+					"color": "#646242",
+					"name": "Accent - Dark 3",
+					"slug": "custom-accent-dark-3"
 				}
 			]
 		},
@@ -751,7 +761,7 @@
 					}
 				},
 				"color": {
-					"background": "var(--wp--preset--color--custom-accent-light)",
+					"background": "var(--wp--preset--color--custom-accent-light-2)",
 					"text": "var(--wp--preset--color--contrast)"
 				},
 				"elements": {
