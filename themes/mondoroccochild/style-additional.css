@@ -56,32 +56,30 @@ a:where(:not(.wp-element-button)):hover {
 }
 
 /* Heads and Anchors */
-h3 {
-    margin-top: 3.5rem;
+h3.wp-block-heading.section {
+ margin-top: 5.5rem;
 }
 
-h3.nav-anchor {
-    margin-top: 0;
-}
-
-body .is-layout-constrained > h3 {
-    margin-block-start: 3.5rem;
-}
-
-body .is-layout-constrained > h3.nav-anchor {
-    margin-block-start: 0;
-}
+h4.wp-block-heading.section {
+    margin-top: 2.75rem;
+   }   
 
 .globe-icon-section-start {
     margin-top: 2.5rem;
 }
 
-#what-i-do,
 #scriptwriting,
 #about-me,
 #contact-me {
   scroll-margin-top: 220px;
+  margin-bottom: -3.5rem;
 }
+
+
+#what-i-do {
+  margin-bottom: -3.8275rem;
+}
+
 
 
 /* Quotes */
@@ -110,3 +108,4 @@ body .is-layout-constrained > h3.nav-anchor {
     font-size: var(--wp--preset--font-size--small);
     margin-top: .5rem;
 }
+
