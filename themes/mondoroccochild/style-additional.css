@@ -16,7 +16,6 @@ Tags: news, portfolio, one-column, wide-blocks, accessibility-ready, block-patte
 */
 
 /* -- Additional CSS -- */
-
 /* Header */
 
 .wp-block-site-logo a, 
@@ -48,6 +47,7 @@ body .is-layout-flex > .globe-icon {
     color: var(--wp--preset--color--custom-links-active-nav) !important;
 }
 
+
 /* Links */
 
 a:where(:not(.wp-element-button)):hover {
@@ -55,14 +55,8 @@ a:where(:not(.wp-element-button)):hover {
     text-decoration: underline;
 }
 
-/* Heads and Anchors */
-h3.wp-block-heading.section {
- margin-top: 5.5rem;
-}
 
-h4.wp-block-heading.section {
-    margin-top: 2.75rem;
-   }   
+/* Heads and Anchors */
 
 .globe-icon-section-start {
     margin-top: 2.5rem;
@@ -75,11 +69,17 @@ h4.wp-block-heading.section {
   margin-bottom: -3.5rem;
 }
 
-
 #what-i-do {
   margin-bottom: -3.8275rem;
 }
 
+h3.wp-block-heading.section {
+ margin-top: 5.5rem;
+}
+
+h4.wp-block-heading.section {
+ margin-top: 2.75rem;
+}
 
 
 /* Quotes */
@@ -93,6 +93,7 @@ h4.wp-block-heading.section {
 .wp-block-quote {
     border-left: 1px #9B9768 dotted;
 }
+
 
 /* Pullquote */
 .wp-block-pullquote {
@@ -108,4 +109,23 @@ h4.wp-block-heading.section {
     font-size: var(--wp--preset--font-size--small);
     margin-top: .5rem;
 }
+
+
+/* Media Queries
+---------------------------------------------------------------------------- */
+
+/* Laptop L 1440 ----------------------------------------------------------- */
+
+@media only screen and (max-width: 1440px) {
+
+#what-i-do,
+#scriptwriting,
+#about-me,
+#contact-me {
+  margin-bottom: 0;
+}
+
+
+}
+
 
