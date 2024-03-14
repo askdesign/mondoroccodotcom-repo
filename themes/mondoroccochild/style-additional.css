@@ -119,6 +119,8 @@ h4.wp-block-heading.section {
 }
 
 
+
+
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
@@ -126,14 +128,58 @@ h4.wp-block-heading.section {
 
 @media only screen and (max-width: 1440px) {
 
-#what-i-do,
-#scriptwriting,
-#about-me,
-#contact-me {
-  margin-bottom: 0;
+    /* Heads and Anchors - stop aligning horizontally with globe icon section hds */
+    
+    #what-i-do,
+    #scriptwriting,
+    #about-me,
+    #contact-me {
+      margin-bottom: 0;
+    }
+
+}
+    
+/* Laptop 1024 ----------------------------------------------------------- */
+    
+@media only screen and (max-width: 1024px) {
+    
+    /* Heads and Anchors - stop using content width - everything is wide size */
+            
+    body .is-layout-constrained > .mobile-wide-size  {
+        max-width: var(--wp--style--global--wide-size);
+    }
+         
 }
 
+    
+/* Mobile M 375 ----------------------------------------------------------- */
+    
+@media only screen and (max-width: 375px) {
+    
+    /* Adjust tagline and menu positions */
 
+    .wp-block-site-logo {
+        width: 120px;
+    }
+            
+         
+}
+            
+   
+/* Mobile S 320 ----------------------------------------------------------- */
+    
+@media only screen and (max-width: 320px) {
+    
+    /* Adjust header alignments */
+    
+    .wp-block-site-tagline {
+        width: auto;
+    }
+            
+         
 }
 
-
+            
+        
+        
+    
