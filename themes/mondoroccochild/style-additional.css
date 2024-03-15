@@ -16,6 +16,7 @@ Tags: news, portfolio, one-column, wide-blocks, accessibility-ready, block-patte
 */
 
 /* -- Additional CSS -- */
+
 /* Header */
 
 .wp-block-site-logo a, 
@@ -59,7 +60,7 @@ a:where(:not(.wp-element-button)):hover {
 /* Heads and Anchors */
 
 .globe-icon-section-start {
-    margin-top: 2.5rem;
+    margin-top: 5.5rem;
 }
 
 #scriptwriting,
@@ -119,8 +120,6 @@ h4.wp-block-heading.section {
 }
 
 
-
-
 /* Media Queries
 ---------------------------------------------------------------------------- */
 
@@ -151,6 +150,51 @@ h4.wp-block-heading.section {
          
 }
 
+
+
+/* Mobile XL 600 ----------------------------------------------------------- */
+    
+@media only screen and (max-width: 600px) {
+    
+    /* Adjust tagline and menu positions */
+
+    .wp-block-site-logo {
+        width: 130px;
+    }
+
+    .wp-block-site-tagline {
+        width: auto;
+    }
+
+    li.wp-block-navigation-item.primary-nav-item.wp-block-navigation-link a {
+        font-size: clamp(0.8rem, 0.8rem + ((1vw - 0.2rem) * 0.208), 1rem);
+    }
+
+    #scriptwriting,
+    #about-me,
+    #contact-me {
+        scroll-margin-top: 170px;
+    }
+
+            
+}
+
+
+
+/* Mobile L 425 ----------------------------------------------------------- */
+    
+@media only screen and (max-width: 425px) {
+    
+    /* Return nav items to original size - mobile menu kicks in */
+
+    li.wp-block-navigation-item.primary-nav-item.wp-block-navigation-link a {
+        font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.208), 1rem);
+    }    
+            
+}
+
+
+
     
 /* Mobile M 375 ----------------------------------------------------------- */
     
@@ -161,10 +205,9 @@ h4.wp-block-heading.section {
     .wp-block-site-logo {
         width: 120px;
     }
-            
          
 }
-            
+
    
 /* Mobile S 320 ----------------------------------------------------------- */
     
@@ -178,8 +221,4 @@ h4.wp-block-heading.section {
             
          
 }
-
             
-        
-        
-    
