@@ -1,0 +1,245 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#ffb94b",
+					"name": "Header",
+					"slug": "custom-header"
+				},
+				{
+					"color": "#dd8133",
+					"name": "Links",
+					"slug": "custom-links"
+				},
+				{
+					"color": "#b16827",
+					"name": "Links - Active",
+					"slug": "custom-links-active"
+				},
+				{
+					"color": "#854d1c",
+					"name": "Links - Active Nav",
+					"slug": "custom-links-active-nav"
+				},
+				{
+					"color": "#9b9768",
+					"name": "Accent - Dark 1",
+					"slug": "custom-accent-dark-1"
+				},
+				{
+					"color": "#d5cf93",
+					"name": "Accent - Light 1",
+					"slug": "custom-accent-light-1"
+				},
+				{
+					"color": "#7d7a53",
+					"name": "Accent - Dark 2",
+					"slug": "custom-accent-dark-2"
+				},
+				{
+					"color": "#f4f4cf",
+					"name": "Accent - Light 2",
+					"slug": "custom-accent-light-2"
+				},
+				{
+					"color": "#646242",
+					"name": "Accent - Dark 3",
+					"slug": "custom-accent-dark-3"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "840px"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Cabin",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cabin_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cabin",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/cabin_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cabin",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cabin_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cabin",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/cabin_italic_600.ttf"
+							]
+						}
+					],
+					"fontFamily": "Cabin",
+					"slug": "cabin"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Cardo",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cardo_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cardo",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cardo_italic_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cardo",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/cardo_normal_700.ttf"
+							]
+						}
+					],
+					"fontFamily": "Cardo",
+					"slug": "cardo"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/navigation": {
+				"css": "",
+				"typography": {
+					"lineHeight": "1.7"
+				}
+			},
+			"core/pullquote": {
+				"border": {
+					"bottom": {
+						"style": "none",
+						"width": "0px"
+					},
+					"left": {
+						"style": "none",
+						"width": "0px"
+					},
+					"radius": "0px",
+					"right": {
+						"style": "none",
+						"width": "0px"
+					},
+					"top": {
+						"style": "none",
+						"width": "0px"
+					}
+				},
+				"color": {
+					"background": "var(--wp--preset--color--custom-accent-light-2)",
+					"text": "var(--wp--preset--color--contrast)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cardo)",
+					"fontSize": "1.4rem",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"lineHeight": "1.5"
+				}
+			},
+			"core/quote": {
+				"color": {
+					"text": "#646242"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "#646242"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cardo)",
+					"lineHeight": "1.5"
+				}
+			},
+			"core/site-tagline": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cardo)",
+					"fontSize": "1.2rem",
+					"fontStyle": "italic",
+					"fontWeight": "400",
+					"lineHeight": "1.7",
+					"textTransform": "capitalize"
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--base-2)"
+		},
+		"css": "/* Header */\n\n.wp-block-site-logo a, \n.wp-block-site-logo img {\n    margin-left: -1px;\n}\n\n.wp-block-site-tagline {\n    width: 183px;\n}\n\np.has-background.wp-block-site-tagline {\n    padding: 1.25em 0;\n}\n\nnav.wp-container-core-navigation-layout-1.wp-container-core-navigation-layout-1 {\n    gap: var(--wp--preset--spacing--30);\n    justify-content: space-between;\n    padding-right: 1rem;\n}\n\nbody .is-layout-flex > .globe-icon {\n    margin: 0 -0.125rem 0 0;\n    z-index: 5;\n}\n\n.wp-block-navigation a:where(:not(.wp-element-button)):hover {\n    text-decoration: none;\n    color: var(--wp--preset--color--custom-links-active-nav) !important;\n}\n\n\n/* Links */\n\na:where(:not(.wp-element-button)):hover {\n    color: var(--wp--preset--color--custom-links-active);\n    text-decoration: underline;\n}\n\n\n/* Heads and Anchors */\n\n.globe-icon-section-start {\n    margin-top: 5.5rem;\n}\n\n#scriptwriting,\n#about-me,\n#contact-me {\n  scroll-margin-top: 220px;\n  margin-bottom: -3.5rem;\n}\n\n#what-i-do {\n  margin-bottom: -3.8275rem;\n}\n\nh3.wp-block-heading.section {\n margin-top: 5.5rem;\n}\n\nh4.wp-block-heading.section {\n margin-top: 2.75rem;\n}\n\n\n/* Quotes */\n.wp-block-quote cite,\n.wp-block-pullquote cite {\n    font-family: var(--wp--preset--font-family--cabin);\n    display: block;\n    line-height: 1.3;\n}\n\n.wp-block-quote {\n    border-left: 1px #9B9768 dotted;\n}\n\n\n/* Pullquote */\n.wp-block-pullquote {\n   border-left: 0px #9b9768 solid;\n    padding: .5rem;\n}\n\n.wp-block-pullquote blockquote, .wp-block-pullquote cite, .wp-block-pullquote p {\n    margin: 0;\n}\n\n.wp-block-pullquote cite {\n    font-size: var(--wp--preset--font-size--small);\n    margin-top: .5rem;\n}\n\n.media-text-content {\n    padding: 0;\n}\n\n.wp-block-media-text .wp-block-media-text__content {\n    padding: 0 1rem;\n}\n\n\n/* Media Queries\n---------------------------------------------------------------------------- */\n\n/* Laptop L 1440 ----------------------------------------------------------- */\n\n@media only screen and (max-width: 1440px) {\n\n    /* Heads and Anchors - stop aligning horizontally with globe icon section hds */\n    \n    #what-i-do,\n    #scriptwriting,\n    #about-me,\n    #contact-me {\n      margin-bottom: 0;\n    }\n\n}\n    \n/* Laptop 1024 ----------------------------------------------------------- */\n    \n@media only screen and (max-width: 1024px) {\n    \n    /* Heads and Anchors - stop using content width - everything is wide size */\n            \n    body .is-layout-constrained > .mobile-wide-size  {\n        max-width: var(--wp--style--global--wide-size);\n    }\n         \n}\n\n\n\n/* Mobile XL 600 ----------------------------------------------------------- */\n    \n@media only screen and (max-width: 600px) {\n    \n    /* Adjust tagline and menu positions */\n\n    .wp-block-site-logo {\n        width: 130px;\n    }\n\n    .wp-block-site-tagline {\n        width: auto;\n    }\n\n    li.wp-block-navigation-item.primary-nav-item.wp-block-navigation-link a {\n        font-size: clamp(0.8rem, 0.8rem + ((1vw - 0.2rem) * 0.208), 1rem);\n    }\n\n    #scriptwriting,\n    #about-me,\n    #contact-me {\n        scroll-margin-top: 170px;\n    }\n\n            \n}\n\n\n\n/* Mobile L 425 ----------------------------------------------------------- */\n    \n@media only screen and (max-width: 425px) {\n    \n    /* Return nav items to original size - mobile menu kicks in */\n\n    li.wp-block-navigation-item.primary-nav-item.wp-block-navigation-link a {\n        font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.208), 1rem);\n    }    \n            \n}\n\n\n\n    \n/* Mobile M 375 ----------------------------------------------------------- */\n    \n@media only screen and (max-width: 375px) {\n    \n    /* Adjust tagline and menu positions */\n\n    .wp-block-site-logo {\n        width: 120px;\n    }\n         \n}\n\n   \n/* Mobile S 320 ----------------------------------------------------------- */\n    \n@media only screen and (max-width: 320px) {\n    \n    /* Adjust header alignments */\n    \n    .wp-block-site-tagline {\n        width: auto;\n    }\n            \n         \n}\n            \n",
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cabin)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cabin)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cardo)"
+				}
+			},
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--custom-links-active)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--custom-links)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cabin)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--cabin)"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json"
+}
