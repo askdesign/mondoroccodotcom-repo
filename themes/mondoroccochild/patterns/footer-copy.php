@@ -2,7 +2,6 @@
 /**
  * Title: footer-copy
  * Slug: mondoroccochild/footer-copy
- * Categories: hidden
  * Inserter: no
  */
 ?>
